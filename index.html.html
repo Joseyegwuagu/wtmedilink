@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<!-- saved from url=(0012)about:srcdoc -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+        html,body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          /* 移除 height: 100% 限制，允许内容自然扩展 */
+          min-height: 100%;
+          /* 确保内容不被截断 */
+          overflow: visible;
+        }
+        /* 确保外层 body 不会限制内层内容 */
+        body {
+          position: relative;
+        }
+        * {
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+        *::-webkit-scrollbar {
+          display: none;
+        }
+      </style>
+  <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.top-0{top:0px}.z-10{z-index:10}.z-50{z-index:50}.col-span-1{grid-column:span 1 / span 1}.mx-auto{margin-left:auto;margin-right:auto}.-my-5{margin-top:-1.25rem;margin-bottom:-1.25rem}.mb-12{margin-bottom:3rem}.mb-4{margin-bottom:1rem}.mb-8{margin-bottom:2rem}.ml-4{margin-left:1rem}.mr-1{margin-right:0.25rem}.mr-2{margin-right:0.5rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-1{margin-top:0.25rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.flow-root{display:flow-root}.grid{display:grid}.hidden{display:none}.h-12{height:3rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-4{height:1rem}.h-48{height:12rem}.h-56{height:14rem}.h-6{height:1.5rem}.h-full{height:100%}.h-5{height:1.25rem}.h-8{height:2rem}.min-h-screen{min-height:100vh}.w-12{width:3rem}.w-2{width:0.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-full{width:100%}.w-5{width:1.25rem}.w-8{width:2rem}.min-w-0{min-width:0px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.rotate-3{--tw-rotate:3deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.cursor-not-allowed{cursor:not-allowed}.appearance-none{-webkit-appearance:none;appearance:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.-space-y-px > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(-1px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(-1px * var(--tw-space-y-reverse))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.divide-slate-200 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(226 232 240 / var(--tw-divide-opacity, 1))}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-none{border-radius:0px}.rounded-b-md{border-bottom-right-radius:0.375rem;border-bottom-left-radius:0.375rem}.rounded-t-md{border-top-left-radius:0.375rem;border-top-right-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225 / var(--tw-border-opacity, 1))}.border-transparent{border-color:transparent}.border-brand-100{--tw-border-opacity:1;border-color:rgb(204 251 241 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-accent-50{--tw-bg-opacity:1;background-color:rgb(240 249 255 / var(--tw-bg-opacity, 1))}.bg-brand-100{--tw-bg-opacity:1;background-color:rgb(204 251 241 / var(--tw-bg-opacity, 1))}.bg-brand-500{--tw-bg-opacity:1;background-color:rgb(20 184 166 / var(--tw-bg-opacity, 1))}.bg-brand-600{--tw-bg-opacity:1;background-color:rgb(13 148 136 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-brand-50{--tw-bg-opacity:1;background-color:rgb(240 253 250 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.fill-current{fill:currentColor}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-6{padding:1.5rem}.p-1\.5{padding:0.375rem}.p-10{padding:2.5rem}.p-4{padding:1rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-8{padding-bottom:2rem}.pt-20{padding-top:5rem}.pt-12{padding-top:3rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-right{text-align:right}.font-sans{font-family:Inter, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.font-normal{font-weight:400}.uppercase{text-transform:uppercase}.leading-6{line-height:1.5rem}.leading-8{line-height:2rem}.leading-7{line-height:1.75rem}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.text-brand-100{--tw-text-opacity:1;color:rgb(204 251 241 / var(--tw-text-opacity, 1))}.text-brand-600{--tw-text-opacity:1;color:rgb(13 148 136 / var(--tw-text-opacity, 1))}.text-brand-700{--tw-text-opacity:1;color:rgb(15 118 110 / var(--tw-text-opacity, 1))}.text-green-800{--tw-text-opacity:1;color:rgb(22 101 52 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-brand-500{--tw-text-opacity:1;color:rgb(20 184 166 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.placeholder-slate-500::placeholder{--tw-placeholder-opacity:1;color:rgb(100 116 139 / var(--tw-placeholder-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-brand-500\/30{--tw-shadow-color:rgb(20 184 166 / 0.3);--tw-shadow:var(--tw-shadow-colored)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-brand-700:hover{--tw-bg-opacity:1;background-color:rgb(15 118 110 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-brand-600:hover{--tw-text-opacity:1;color:rgb(13 148 136 / var(--tw-text-opacity, 1))}.hover\:text-brand-700:hover{--tw-text-opacity:1;color:rgb(15 118 110 / var(--tw-text-opacity, 1))}.hover\:text-slate-700:hover{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:z-10:focus{z-index:10}.focus\:border-brand-500:focus{--tw-border-opacity:1;border-color:rgb(20 184 166 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-brand-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(20 184 166 / var(--tw-ring-opacity, 1))}.focus\:ring-offset-2:focus{--tw-ring-offset-width:2px}@media (min-width: 640px){.sm\:mx-auto{margin-left:auto;margin-right:auto}.sm\:mt-12{margin-top:3rem}.sm\:mt-5{margin-top:1.25rem}.sm\:mt-8{margin-top:2rem}.sm\:flex{display:flex}.sm\:h-72{height:18rem}.sm\:max-w-xl{max-width:36rem}.sm\:justify-center{justify-content:center}.sm\:truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sm\:p-6{padding:1.5rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pb-16{padding-bottom:4rem}.sm\:text-center{text-align:center}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}}@media (min-width: 768px){.md\:col-span-1{grid-column:span 1 / span 1}.md\:mt-16{margin-top:4rem}.md\:mt-5{margin-top:1.25rem}.md\:ml-4{margin-left:1rem}.md\:mt-0{margin-top:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:h-96{height:24rem}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:justify-between{justify-content:space-between}.md\:py-4{padding-top:1rem;padding-bottom:1rem}.md\:pb-20{padding-bottom:5rem}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:absolute{position:absolute}.lg\:inset-y-0{top:0px;bottom:0px}.lg\:right-0{right:0px}.lg\:col-span-2{grid-column:span 2 / span 2}.lg\:mx-0{margin-left:0px;margin-right:0px}.lg\:mt-0{margin-top:0px}.lg\:mt-20{margin-top:5rem}.lg\:grid{display:grid}.lg\:h-full{height:100%}.lg\:w-1\/2{width:50%}.lg\:w-full{width:100%}.lg\:max-w-2xl{max-width:42rem}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:justify-start{justify-content:flex-start}.lg\:gap-8{gap:2rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:pb-28{padding-bottom:7rem}.lg\:text-left{text-align:left}}@media (min-width: 1280px){.xl\:mt-28{margin-top:7rem}.xl\:inline{display:inline}.xl\:pb-32{padding-bottom:8rem}}</style></head>
+  <body class="font-sans text-slate-800 bg-slate-50 antialiased">
+      <script nonce="">
+        window.onerror = function(e) {
+          // 检查是否有DOM被渲染（排除script标签）
+          const hasDom = function() {
+            // 检查body是否有子元素（排除script标签）
+            const children = Array.from(document.body.children || []);
+            const nonScriptChildren = children.filter(child => child.tagName !== 'SCRIPT');
+            if (nonScriptChildren.length > 0) {
+              return true;
+            }
+            // 检查是否有文本内容（排除空白）
+            const textContent = document.body.textContent || '';
+            const hasText = textContent.trim().length > 0;
+            // 检查是否有可见元素（通过计算样式）
+            const allElements = document.body.querySelectorAll('*');
+            for (let i = 0; i < allElements.length; i++) {
+              const el = allElements[i];
+              if (el.tagName === 'SCRIPT' || el.tagName === 'STYLE') continue;
+              const style = window.getComputedStyle(el);
+              if (style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0') {
+                return true;
+              }
+            }
+            return hasText;
+          };
+          
+          // 如果页面已经渲染出DOM，则不发送错误信息
+          if (!hasDom()) {
+            window.parent.postMessage({
+              type: 'error',
+              error: e
+            }, '*')
+          }
+        }
+        window.alert = (s) => console.log(s);
+        window.confirm = (s) => console.log(s);
+        console.log('window html', window.innerHeight, Date.now())
+        
+        function handleOnload() {
+          console.log('window.onload 触发', window.innerHeight, Date.now());
+          // 检查是否有defer脚本
+          const hasDeferScripts = document.querySelectorAll('script[defer]').length > 0;
+
+          console.log('hasDeferScripts33', hasDeferScripts);
+          
+          if (hasDeferScripts) {
+            // 如果有defer脚本，等待它们执行完成
+            console.log('hasDeferScripts11', hasDeferScripts);
+            setTimeout(function() {
+              window.parent.postMessage({
+                type: 'onload',
+              }, '*');
+            }, 1000);
+          } else {
+            console.log('hasDeferScripts22', hasDeferScripts);
+            // 没有defer脚本，直接发送
+            window.parent.postMessage({
+              type: 'onload',
+            }, '*');
+          }
+        }
+        
+        // 检查文档是否已经加载完成
+        console.log('document.readyState:', document.readyState, 'Date.now():', Date.now());
+        
+        // 立即检查，如果已经加载完成则立即执行
+        if (document.readyState === 'complete') {
+          console.log('document already loaded, executing immediately');
+          handleOnload();
+        } else {
+          // 否则等待 window.onload 事件
+          console.log('waiting for window.onload, current readyState:', document.readyState);
+          // 同时监听 load 事件（更可靠）
+          window.addEventListener('load', handleOnload);
+          // 也设置 window.onload 作为备用（兼容性）
+          if (!window.onload) {
+            window.onload = handleOnload;
+          } else {
+            // 如果已经有 onload，合并执行
+            const oldOnload = window.onload;
+            window.onload = function() {
+              if (oldOnload) oldOnload();
+              handleOnload();
+            };
+          }
+        }
+      </script>
+      
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTMediLink - Telehealth Platform</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script nonce="" src="https://cdn.tailwindcss.com/"></script>
+    
+    <!-- Icons -->
+    <script nonce="" src="https://unpkg.com/lucide@latest"></script>
+
+    <script nonce="">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6', // Teal 500
+                            600: '#0d9488', // Teal 600
+                            700: '#0f766e', // Teal 700
+                            900: '#134e4a',
+                        },
+                        accent: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9', // Sky 500
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Animations */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #0d9488;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Hide sections by default */
+        .page-section {
+            display: none;
+        }
+        
+        /* Show active section */
+        .page-section.active {
+            display: block;
+        }
+    </style>
+
+
+
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center cursor-pointer" onclick="navigateTo(&#39;home&#39;)">
+                    <div class="bg-brand-600 text-white p-2 rounded-lg mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="activity" aria-hidden="true" class="lucide lucide-activity w-6 h-6"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path></svg>
+                    </div>
+                    <span class="text-2xl font-bold text-slate-800 tracking-tight">WT<span class="text-brand-600">MediLink</span></span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <button onclick="navigateTo(&#39;home&#39;)" class="nav-link text-slate-600 hover:text-brand-600 font-medium transition">Home</button>
+                    <button onclick="navigateTo(&#39;directory&#39;)" class="nav-link text-slate-600 hover:text-brand-600 font-medium transition">Find a Doctor</button>
+                    <button onclick="navigateTo(&#39;dashboard&#39;)" class="nav-link text-slate-600 hover:text-brand-600 font-medium transition">My Dashboard</button>
+                    <button onclick="navigateTo(&#39;signup&#39;)" class="text-slate-600 hover:text-brand-600 font-medium transition">Doctor Signup</button>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <button class="text-brand-600 font-medium hover:text-brand-700">Log In</button>
+                    <button onclick="navigateTo(&#39;directory&#39;)" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-full font-medium transition shadow-lg shadow-brand-500/30">
+                        Start Consultation
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-slate-500 hover:text-slate-700 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="menu" aria-hidden="true" class="lucide lucide-menu w-6 h-6"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main id="main-content">
+
+        <!-- ================= HOME PAGE ================= -->
+        <div id="home" class="page-section active fade-in">
+            <!-- Hero Section -->
+            <section class="relative bg-white overflow-hidden">
+                <div class="max-w-7xl mx-auto">
+                    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 pt-20 px-4 sm:px-6 lg:px-8">
+                        <main class="mt-10 mx-auto max-w-7xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
+                            <div class="sm:text-center lg:text-left">
+                                <h1 class="text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl">
+                                    <span class="block xl:inline">Talk to a Doctor</span>
+                                    <span class="block text-brand-600 xl:inline">Anytime, Anywhere</span>
+                                </h1>
+                                <p class="mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                                    Connect with licensed healthcare professionals instantly via secure video, voice, or chat. Quality care without the waiting room.
+                                </p>
+                                <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start gap-4">
+                                    <button onclick="navigateTo(&#39;directory&#39;)" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-brand-600 hover:bg-brand-700 md:py-4 md:text-lg shadow-lg shadow-brand-500/30 transition transform hover:-translate-y-1">
+                                        Find a Doctor
+                                    </button>
+                                    <button onclick="navigateTo(&#39;dashboard&#39;)" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-brand-700 bg-brand-100 hover:bg-brand-200 md:py-4 md:text-lg transition">
+                                        Patient Portal
+                                    </button>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+                <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-accent-50">
+                    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://image.qwenlm.ai/public_source/eea7159f-1098-4b9f-b817-2f55ee793f89/14ec3effb-49c3-4f4b-930e-56f573c16f0d.png" alt="Doctor using tablet">
+                </div>
+            </section>
+
+            <!-- How It Works -->
+            <section class="py-16 bg-slate-50">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center mb-12">
+                        <h2 class="text-base text-brand-600 font-semibold tracking-wide uppercase">Simple Process</h2>
+                        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">How WTMediLink Works</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Step 1 -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                            <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+                            <h3 class="text-lg font-medium text-slate-900">Create Account</h3>
+                            <p class="mt-2 text-slate-500">Sign up in seconds and complete your secure medical profile.</p>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                            <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+                            <h3 class="text-lg font-medium text-slate-900">Choose a Doctor</h3>
+                            <p class="mt-2 text-slate-500">Browse specialists, read reviews, and check availability.</p>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                            <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+                            <h3 class="text-lg font-medium text-slate-900">Start Consultation</h3>
+                            <p class="mt-2 text-slate-500">Connect via HD video, voice call, or secure text chat.</p>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                            <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
+                            <h3 class="text-lg font-medium text-slate-900">Get Care &amp; Pay</h3>
+                            <p class="mt-2 text-slate-500">Receive prescriptions and pay securely after the session.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features -->
+            <section class="py-16 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                        <div>
+                            <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">
+                                Comprehensive Digital Healthcare
+                            </h2>
+                            <p class="mt-3 max-w-3xl text-lg text-slate-500">
+                                We provide a secure ecosystem for patients and doctors to interact seamlessly.
+                            </p>
+                            <div class="mt-10 space-y-6">
+                                <div class="flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-500 text-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="message-square" aria-hidden="true" class="lucide lucide-message-square w-6 h-6"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h3 class="text-lg leading-6 font-medium text-slate-900">Secure Messaging</h3>
+                                        <p class="mt-2 text-base text-slate-500">End-to-end encrypted chat for follow-ups and quick questions.</p>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-500 text-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="video" aria-hidden="true" class="lucide lucide-video w-6 h-6"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h3 class="text-lg leading-6 font-medium text-slate-900">HD Video Consultation</h3>
+                                        <p class="mt-2 text-base text-slate-500">Crystal clear video calls that feel like you're in the same room.</p>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="flex-shrink-0">
+                                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-500 text-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-text" aria-hidden="true" class="lucide lucide-file-text w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h3 class="text-lg leading-6 font-medium text-slate-900">Digital Prescriptions</h3>
+                                        <p class="mt-2 text-base text-slate-500">Instant e-prescriptions sent directly to your preferred pharmacy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-10 lg:mt-0 relative">
+                             <div class="absolute inset-0 bg-brand-100 rounded-3xl transform rotate-3 scale-105"></div>
+                             <img class="relative rounded-3xl shadow-xl w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Medical tech">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ================= DOCTOR DIRECTORY ================= -->
+        <div id="directory" class="page-section fade-in">
+            <div class="bg-brand-600 py-16">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <h1 class="text-3xl font-extrabold text-white sm:text-4xl">Find Your Specialist</h1>
+                    <p class="mt-4 text-xl text-brand-100">Browse our network of licensed professionals ready to help.</p>
+                </div>
+            </div>
+            
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <!-- Filters (Visual only) -->
+                <div class="flex flex-wrap gap-4 mb-8 justify-center">
+                    <button class="px-4 py-2 bg-brand-600 text-white rounded-full text-sm font-medium">All Doctors</button>
+                    <button class="px-4 py-2 bg-white border border-slate-300 text-slate-700 rounded-full text-sm font-medium hover:bg-slate-50">General Practice</button>
+                    <button class="px-4 py-2 bg-white border border-slate-300 text-slate-700 rounded-full text-sm font-medium hover:bg-slate-50">Cardiology</button>
+                    <button class="px-4 py-2 bg-white border border-slate-300 text-slate-700 rounded-full text-sm font-medium hover:bg-slate-50">Pediatrics</button>
+                    <button class="px-4 py-2 bg-white border border-slate-300 text-slate-700 rounded-full text-sm font-medium hover:bg-slate-50">Dermatology</button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Doctor Card 1 -->
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 hover:shadow-xl transition duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img class="w-full h-full object-cover" src="https://image.qwenlm.ai/public_source/eea7159f-1098-4b9f-b817-2f55ee793f89/105131890-cd80-4449-9336-ab74e910ae88.png" alt="Dr. James Chen">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-bold text-slate-900">Dr. James Chen</h3>
+                                    <p class="text-brand-600 font-medium">General Practitioner</p>
+                                </div>
+                                <div class="flex items-center bg-green-100 text-green-800 px-2 py-1 rounded text-xs font-bold">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full mr-1"></span> Available
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-slate-500 space-x-4">
+                                <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award" aria-hidden="true" class="lucide lucide-award w-4 h-4 mr-1"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg> 12 Years Exp.</span>
+                                <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 mr-1 text-yellow-400 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg> 4.9 (120)</span>
+                            </div>
+                            <div class="mt-6 flex items-center justify-between">
+                                <span class="text-lg font-bold text-slate-900">$45 <span class="text-sm font-normal text-slate-500">/ session</span></span>
+                                <button class="bg-brand-600 hover:bg-brand-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Doctor Card 2 -->
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 hover:shadow-xl transition duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img class="w-full h-full object-cover" src="https://image.qwenlm.ai/public_source/eea7159f-1098-4b9f-b817-2f55ee793f89/1905f2e31-d1ae-4577-b10e-5d2445141220.png" alt="Dr. Sarah Lin">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-bold text-slate-900">Dr. Sarah Lin</h3>
+                                    <p class="text-brand-600 font-medium">Cardiologist</p>
+                                </div>
+                                <div class="flex items-center bg-green-100 text-green-800 px-2 py-1 rounded text-xs font-bold">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full mr-1"></span> Available
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-slate-500 space-x-4">
+                                <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award" aria-hidden="true" class="lucide lucide-award w-4 h-4 mr-1"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg> 15 Years Exp.</span>
+                                <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 mr-1 text-yellow-400 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg> 5.0 (85)</span>
+                            </div>
+                            <div class="mt-6 flex items-center justify-between">
+                                <span class="text-lg font-bold text-slate-900">$80 <span class="text-sm font-normal text-slate-500">/ session</span></span>
+                                <button class="bg-brand-600 hover:bg-brand-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Doctor Card 3 -->
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 hover:shadow-xl transition duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img class="w-full h-full object-cover" src="https://image.qwenlm.ai/public_source/eea7159f-1098-4b9f-b817-2f55ee793f89/140c631c8-f498-47e6-9c13-a287f9d36579.png" alt="Dr. Michael Wong">
+                        </div>
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-bold text-slate-900">Dr. Michael Wong</h3>
+                                    <p class="text-brand-600 font-medium">Pediatrician</p>
+                                </div>
+                                <div class="flex items-center bg-gray-100 text-gray-600 px-2 py-1 rounded text-xs font-bold">
+                                    <span class="w-2 h-2 bg-gray-400 rounded-full mr-1"></span> Busy
+                                </div>
+                            </div>
+                            <div class="mt-4 flex items-center text-sm text-slate-500 space-x-4">
+                                <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award" aria-hidden="true" class="lucide lucide-award w-4 h-4 mr-1"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg> 8 Years Exp.</span>
+                                <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 mr-1 text-yellow-400 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg> 4.8 (200)</span>
+                            </div>
+                            <div class="mt-6 flex items-center justify-between">
+                                <span class="text-lg font-bold text-slate-900">$55 <span class="text-sm font-normal text-slate-500">/ session</span></span>
+                                <button class="bg-slate-200 text-slate-500 cursor-not-allowed px-4 py-2 rounded-lg text-sm font-medium">Next Available: 2pm</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= DOCTOR SIGNUP ================= -->
+        <div id="signup" class="page-section fade-in">
+            <div class="min-h-screen bg-slate-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-md w-full space-y-8 bg-white p-10 rounded-2xl shadow-xl">
+                    <div class="text-center">
+                        <div class="mx-auto h-12 w-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-plus" aria-hidden="true" class="lucide lucide-user-plus w-6 h-6"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><line x1="19" x2="19" y1="8" y2="14"></line><line x1="22" x2="16" y1="11" y2="11"></line></svg>
+                        </div>
+                        <h2 class="mt-6 text-3xl font-extrabold text-slate-900">Join as a Doctor</h2>
+                        <p class="mt-2 text-sm text-slate-600">Expand your practice and reach patients globally.</p>
+                    </div>
+                    <form class="mt-8 space-y-6" onsubmit="event.preventDefault(); alert(&#39;Application submitted! We will contact you shortly.&#39;);">
+                        <div class="rounded-md shadow-sm -space-y-px">
+                            <div>
+                                <label for="name" class="sr-only">Full Name</label>
+                                <input id="name" name="name" type="text" required="" class="appearance-none rounded-none rounded-t-md relative block w-full px-3 py-2 border border-slate-300 placeholder-slate-500 text-slate-900 focus:outline-none focus:ring-brand-500 focus:border-brand-500 focus:z-10 sm:text-sm" placeholder="Full Name">
+                            </div>
+                            <div>
+                                <label for="email" class="sr-only">Email address</label>
+                                <input id="email" name="email" type="email" required="" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-slate-300 placeholder-slate-500 text-slate-900 focus:outline-none focus:ring-brand-500 focus:border-brand-500 focus:z-10 sm:text-sm" placeholder="Email address">
+                            </div>
+                            <div>
+                                <label for="specialty" class="sr-only">Specialty</label>
+                                <select id="specialty" name="specialty" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-slate-300 placeholder-slate-500 text-slate-900 focus:outline-none focus:ring-brand-500 focus:border-brand-500 focus:z-10 sm:text-sm">
+                                    <option>General Practice</option>
+                                    <option>Cardiology</option>
+                                    <option>Pediatrics</option>
+                                    <option>Dermatology</option>
+                                    <option>Psychiatry</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="license" class="sr-only">License Number</label>
+                                <input id="license" name="license" type="text" required="" class="appearance-none rounded-none rounded-b-md relative block w-full px-3 py-2 border border-slate-300 placeholder-slate-500 text-slate-900 focus:outline-none focus:ring-brand-500 focus:border-brand-500 focus:z-10 sm:text-sm" placeholder="Medical License Number">
+                            </div>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-brand-600 hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500 transition">
+                                Submit Application
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= PATIENT DASHBOARD ================= -->
+        <div id="dashboard" class="page-section fade-in">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div class="md:flex md:items-center md:justify-between mb-8">
+                    <div class="flex-1 min-w-0">
+                        <h2 class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:truncate">
+                            Hello, Alex
+                        </h2>
+                        <p class="text-slate-500">Welcome back to your health portal.</p>
+                    </div>
+                    <div class="mt-4 flex md:mt-0 md:ml-4">
+                        <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 focus:outline-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus" aria-hidden="true" class="lucide lucide-plus w-4 h-4 mr-2"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg> New Appointment
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Left Column: Stats & Upcoming -->
+                    <div class="lg:col-span-2 space-y-6">
+                        <!-- Upcoming Appointment -->
+                        <div class="bg-white overflow-hidden shadow rounded-lg">
+                            <div class="px-4 py-5 sm:p-6">
+                                <h3 class="text-lg leading-6 font-medium text-slate-900 flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar" aria-hidden="true" class="lucide lucide-calendar w-5 h-5 mr-2 text-brand-500"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg> Upcoming Appointment
+                                </h3>
+                                <div class="mt-4 flex items-center justify-between bg-brand-50 p-4 rounded-lg border border-brand-100">
+                                    <div class="flex items-center">
+                                        <img class="h-12 w-12 rounded-full object-cover" src="https://image.qwenlm.ai/public_source/eea7159f-1098-4b9f-b817-2f55ee793f89/105131890-cd80-4449-9336-ab74e910ae88.png" alt="">
+                                        <div class="ml-4">
+                                            <p class="text-sm font-medium text-slate-900">Dr. James Chen</p>
+                                            <p class="text-sm text-slate-500">General Checkup • Video Call</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <p class="text-sm font-bold text-slate-900">Today, 2:00 PM</p>
+                                        <button class="mt-1 text-xs bg-brand-600 text-white px-3 py-1 rounded hover:bg-brand-700">Join Call</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recent Messages -->
+                        <div class="bg-white overflow-hidden shadow rounded-lg">
+                            <div class="px-4 py-5 sm:p-6">
+                                <h3 class="text-lg leading-6 font-medium text-slate-900 mb-4">Recent Messages</h3>
+                                <ul class="divide-y divide-slate-200">
+                                    <li class="py-4 flex items-start space-x-3">
+                                        <div class="flex-shrink-0">
+                                            <span class="inline-block h-8 w-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 font-bold">DL</span>
+                                        </div>
+                                        <div class="min-w-0 flex-1">
+                                            <p class="text-sm font-medium text-slate-900">Dr. Lisa Doe</p>
+                                            <p class="text-sm text-slate-500 truncate">Your prescription for Amoxicillin has been sent to CVS Pharmacy.</p>
+                                        </div>
+                                        <div class="flex-shrink-0 self-center">
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                                Read
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="py-4 flex items-start space-x-3">
+                                        <div class="flex-shrink-0">
+                                            <span class="inline-block h-8 w-8 rounded-full bg-brand-100 flex items-center justify-center text-brand-600 font-bold">JC</span>
+                                        </div>
+                                        <div class="min-w-0 flex-1">
+                                            <p class="text-sm font-medium text-slate-900">Dr. James Chen</p>
+                                            <p class="text-sm text-slate-500 truncate">Please remember to drink plenty of water before our call tomorrow.</p>
+                                        </div>
+                                        <div class="flex-shrink-0 self-center">
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                                                New
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Prescriptions & History -->
+                    <div class="space-y-6">
+                        <div class="bg-white overflow-hidden shadow rounded-lg">
+                            <div class="px-4 py-5 sm:p-6">
+                                <h3 class="text-lg leading-6 font-medium text-slate-900 mb-4">Active Prescriptions</h3>
+                                <div class="flow-root">
+                                    <ul class="-my-5 divide-y divide-slate-200">
+                                        <li class="py-4">
+                                            <div class="flex items-center space-x-4">
+                                                <div class="flex-shrink-0 bg-blue-50 p-2 rounded">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="pill" aria-hidden="true" class="lucide lucide-pill w-5 h-5 text-blue-600"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"></path><path d="m8.5 8.5 7 7"></path></svg>
+                                                </div>
+                                                <div class="flex-1 min-w-0">
+                                                    <p class="text-sm font-medium text-slate-900 truncate">Ibuprofen 400mg</p>
+                                                    <p class="text-sm text-slate-500 truncate">Take every 6 hours as needed</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="py-4">
+                                            <div class="flex items-center space-x-4">
+                                                <div class="flex-shrink-0 bg-blue-50 p-2 rounded">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="pill" aria-hidden="true" class="lucide lucide-pill w-5 h-5 text-blue-600"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"></path><path d="m8.5 8.5 7 7"></path></svg>
+                                                </div>
+                                                <div class="flex-1 min-w-0">
+                                                    <p class="text-sm font-medium text-slate-900 truncate">Vitamin D3</p>
+                                                    <p class="text-sm text-slate-500 truncate">1 capsule daily with food</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mt-5">
+                                    <button class="w-full flex justify-center py-2 px-4 border border-slate-300 shadow-sm text-sm font-medium rounded-md text-slate-700 bg-white hover:bg-slate-50">
+                                        View All History
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-brand-600 text-white p-1.5 rounded mr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="activity" aria-hidden="true" class="lucide lucide-activity w-5 h-5"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path></svg>
+                        </div>
+                        <span class="text-xl font-bold">WTMediLink</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">Connecting patients to quality healthcare anytime, anywhere.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Platform</h4>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li><a href="https://qwenlm.io/#" class="hover:text-white transition">How it Works</a></li>
+                        <li><a href="https://qwenlm.io/#" class="hover:text-white transition">Find a Doctor</a></li>
+                        <li><a href="https://qwenlm.io/#" class="hover:text-white transition">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li><a href="https://qwenlm.io/#" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="https://qwenlm.io/#" class="hover:text-white transition">Terms of Service</a></li>
+                        <li><a href="https://qwenlm.io/#" class="hover:text-white transition">HIPAA Compliance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" aria-hidden="true" class="lucide lucide-mail w-4 h-4 mr-2"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg> support@wtmedilink.com</li>
+                        <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" aria-hidden="true" class="lucide lucide-phone w-4 h-4 mr-2"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg> 1-800-WT-MEDI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-slate-500 text-sm">© 2023 WTMediLink. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="https://qwenlm.io/#" class="text-slate-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="facebook" aria-hidden="true" class="lucide lucide-facebook w-5 h-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a href="https://qwenlm.io/#" class="text-slate-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="twitter" aria-hidden="true" class="lucide lucide-twitter w-5 h-5"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a>
+                    <a href="https://qwenlm.io/#" class="text-slate-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" aria-hidden="true" class="lucide lucide-linkedin w-5 h-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script nonce="">
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Simple Router Logic
+        function navigateTo(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.page-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show target section
+            const target = document.getElementById(sectionId);
+            if (target) {
+                target.classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+    </script>
+
+
+
+
+  
+  </body></html>
